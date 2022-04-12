@@ -4,10 +4,11 @@
 
 #### instructions:
     1. open two terminals.
-    2. type ./sniff and ./secret in each of them.
-    3. in ./secret one- type your password.
-    4. type enter twice.
-    5. see result.
+    2. in one of the terminals- type ' export LD_LIBRARY_PATH="." '
+    3. type ./sniff and ./secret in each of them.
+    4. in ./secret one- type your password.
+    5. type enter twice.
+    6. see result.
 
 in this assignment, we were instructed to hack the linker, so that's exactly what we did. 
 we complied with our shared library as instructed named .so.6. then at the dynamic linker section of the binary file, we change the offset of the address by 5 (can see binary file by "hexedit ./secret").
