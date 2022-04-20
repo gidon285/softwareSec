@@ -15,3 +15,4 @@ we complied with our shared library as instructed named .so.6. then at the dynam
 then we used fget to read input straight from STDIN into our out char array. 
 then we opened a raw socket with another file called sniff (that will represent our server) and sent the given password to it.
 steal.c is the file that we stored our scanf in. 
+0546670528
